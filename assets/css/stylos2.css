@@ -31,7 +31,7 @@ hr{
 	top: 98px;
 }
 
-#segundosec input:invalid {
+ input:invalid {
  
 border: 1px solid red;
  
@@ -39,7 +39,7 @@ border: 1px solid red;
  
 /* Estilo por defecto */
  
-#segundosec input:valid {
+input:valid {
  
 border: 1px solid green;
  
