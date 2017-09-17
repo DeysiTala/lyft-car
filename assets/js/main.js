@@ -18,8 +18,10 @@ function codigoRamdon(caracteres, longitud) {
 function cod(){
 
 codigoRamdon();
-	alert("Su codigo es:" + "LAB-" + codigoRamdon(caracteress, longituds));
+	alert("Su codigo es: " + "LAB-" + codigoRamdon(caracteress, longituds));
 }
+ 
+
  //document.getElementById("numale").innerHTML = "LAB-" + codigoRamdon(caracteres,longituds);
 
 
@@ -39,3 +41,5 @@ longitud = 3;
 
 alert("XYZ" +rand_code(caracteres, longitud));  
 //devuelve una cadena aleatoria de 20 caracteres*/
+
+

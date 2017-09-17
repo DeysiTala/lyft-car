@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header >
+ <header >
         
         <a href="index.html"><i class="fa fa-chevron-left fa-2x text-left" aria-hidden="true"></i></a><center><h3 class="text-center">Sign Up</h3>
         <p class="text-center">Join now for free ride credit</p></center>
@@ -24,46 +24,28 @@
     <center><hr class="text-center"></center>
     <section class="container">
     <div class="row">
-    	<div class="col-sm-12 text-center">
-    	<form action="users.html">
-    	<div class="btn-group">
-    
-    
-<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
-<ul class="dropdown-menu">
-  <li><a href="#">Australia</a></li>
-    <li><a href="#">Canada</a></li>
-  <li><a href="#">China</a></li>
-  <li><a href="#">France</a></li>
-  <li><a href="#">India</a></li>
-    <li><a href="#">Japan</a></li>
-  <li><a href="#">Mexico</a></li>
-  <li><a href="#">Puerto Rico</a></li>
-  <li><a href="#">United Kingdom</a></li>						  
-</ul>
-<input type="text" name="celular" value="+51" id="primerinput"    ><input id="phonenum" type="tel" placeholder="112233445" pattern="^\d{3}\d{3}\d{3}$" required >
+      <div class="col-sm-12 text-center">
+    <form name="formulario" method="post">
+
+<div class="input-group input-group-lg">
+  <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+  <input type="text" class="form-control" aria-label="Username" aria-describedby="sizing-addon1" placeholder="First Name     Las Name" 
+         minlength="5" maxlength="40" required pattern="[A-Z]">
+</div>
+<br>
+<div class="input-group input-group-lg">
+    <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+</div>
+</form>
 
 </div>
+</div>
+</section>
 
-    </div>
-    </div>
-    <br>
-    <p class="text-center"> We'll send a text verify your phone</p>
-    <div class="col-sm-12 text-center">
-        
-    	<input type="submit" value="Next" id="next" onclick="cod()"></a>
-    </div>
-    
-    </form>
-    
-    </section>
-    <div id="aleatorio">
-        
-    </div>
-    
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
-    <script src="assets/js/main.js"></script>
+   <!-- <script src="assets/js/main.js"></script>-->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBz58MPzs4zk6vTqKBV_yMWRBzzpK0p_Qc&callback=initMap&libraries=places"></script>
 </body>
 
