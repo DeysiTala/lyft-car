@@ -25,18 +25,28 @@
     <section class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
-    <form name="formulario" method="post">
+    <form name="formulario" method="post" action="maps.html">
 
 <div class="input-group input-group-lg">
   <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
-  <input type="text" class="form-control" aria-label="Username" aria-describedby="sizing-addon1" placeholder="First Name     Las Name" 
-         minlength="5" maxlength="40" required pattern="[A-Z]">
+  <input type="text" class="form-control" aria-label="Username" aria-describedby="sizing-addon1" placeholder="First Name           Last Name" minlength="5" maxlength="40" required pattern="[A-Z]*">
 </div>
 <br>
 <div class="input-group input-group-lg">
     <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 </div>
+<br>
+<div class="form-check">
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      I agree to Lyft's <a>Terms of service</a>
+    </label>
+  </div>
+  <div class="col-sm-12 text-center">
+        
+      <input type="submit" value="Next" id="next">
+    </div>
 </form>
 
 </div>
