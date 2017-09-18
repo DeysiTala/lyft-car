@@ -7,6 +7,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/stylos2.css">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+     <link href="http://blazeworx.com/flags.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <title>
         LyftCar
     </title>
@@ -26,21 +28,13 @@
     <div class="row">
     	<div class="col-sm-12 text-center">
     	<form action="users.html">
-    	<div class="btn-group">
-    
-    
-<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
-<ul class="dropdown-menu">
-  <li><a href="#">Australia</a></li>
-    <li><a href="#">Canada</a></li>
-  <li><a href="#">China</a></li>
-  <li><a href="#">France</a></li>
-  <li><a href="#">India</a></li>
-    <li><a href="#">Japan</a></li>
-  <li><a href="#">Mexico</a></li>
-  <li><a href="#">Puerto Rico</a></li>
-  <li><a href="#">United Kingdom</a></li>						  
-</ul>
+    	
+    <div class="form-group">
+        <label>Select Country</label><br>
+        <div id="basic" data-input-name="country" data-selected-country="PE" ></div>
+
+    </div>
+
 <input type="text" name="celular" value="+51" id="primerinput"    ><input id="phonenum" type="tel" placeholder="112233445" pattern="^\d{3}\d{3}\d{3}$" required >
 
 </div>
@@ -51,7 +45,7 @@
     <p class="text-center"> We'll send a text verify your phone</p>
     <div class="col-sm-12 text-center">
         
-    	<input type="submit" value="Next" id="next" onclick="cod()">
+    	<input id="next" class="btn-lg btn-block" type="submit" value="Next"  onclick="cod()">
     </div>
     
     </form>
@@ -63,6 +57,8 @@
     
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/bootstrap.js"></script>
+      <script src="http://blazeworx.com/jquery.flagstrap.min.js"></script>
+   <script src="assets/js/flags.js"></script>
     <script src="assets/js/main.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBz58MPzs4zk6vTqKBV_yMWRBzzpK0p_Qc&callback=initMap&libraries=places"></script>
 </body>
